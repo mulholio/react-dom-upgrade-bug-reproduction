@@ -4,6 +4,8 @@ Reproduction for [issue #16508 on /react](https://github.com/facebook/react/issu
 
 Run `yarn test` to see the error
 
+Run `yarn dev` to see the project run in the browser
+
 ---
 
 This project was bootstrapped with [Create Next App](https://github.com/segmentio/create-next-app).
