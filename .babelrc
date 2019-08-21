@@ -1,0 +1,38 @@
+{
+  "env": {
+    "development": {
+      "presets": [
+        "next/babel",
+      ],
+      "plugins": [
+        "react-intl",
+      ]
+    },
+    "production": {
+      "presets": [
+        "next/babel",
+      ],
+      "plugins": [
+        "react-intl",
+      ]
+    },
+    "test": {
+      "presets": [
+        [
+          "next/babel",
+          {
+            "preset-env": {
+              "modules": "commonjs",
+              "targets": {
+                "node": "current"
+              }
+            }
+          }
+        ],
+      ],
+      "plugins": [
+        "react-intl",
+      ]
+    }
+  }
+}
